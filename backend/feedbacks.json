@@ -1,0 +1,151 @@
+[
+  {
+    "feedbackRating": "Good",
+    "feedbackText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit ani.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni.",
+    "date": "Dec 10, 2025",
+    "time": "3:20 AM",
+    "createdAt": "2024-04-10T12:30:00.000Z",
+    "updatedAt": "2024-04-10T12:30:00.000Z",
+    "edited": false
+  },
+  {
+    "feedbackRating": "Excellent",
+    "feedbackText": "Everything works perfectly. The interface is intuitive and loads very quickly.",
+    "createdAt": "2024-05-15T10:30:00.000Z",
+    "updatedAt": "2024-05-15T10:30:00.000Z",
+    "edited": false
+  },
+  {
+    "feedbackRating": "Good",
+    "feedbackText": "I enjoy using the application daily. It is responsive and easy to navigate.",
+    "createdAt": "2024-05-18T14:15:00.000Z",
+    "updatedAt": "2024-05-18T14:15:00.000Z",
+    "edited": false
+  },
+  {
+    "feedbackRating": "Okay",
+    "feedbackText": "The app is decent overall, but some features were difficult to find initially.",
+    "createdAt": "2024-05-21T09:45:00.000Z",
+    "updatedAt": "2024-05-24T11:20:00.000Z",
+    "edited": true
+  },
+  {
+    "feedbackRating": "Bad",
+    "feedbackText": "The dashboard occasionally freezes when switching between tabs.",
+    "createdAt": "2024-05-25T16:10:00.000Z",
+    "updatedAt": "2024-05-25T16:10:00.000Z",
+    "edited": false
+  },
+  {
+    "feedbackRating": "Very Bad",
+    "feedbackText": "Buttons on the mobile version overlap each other, making it hard to use.",
+    "createdAt": "2024-06-01T08:05:00.000Z",
+    "updatedAt": "2024-06-03T10:45:00.000Z",
+    "edited": true
+  },
+  {
+    "feedbackRating": "Excellent",
+    "feedbackText": "Dark mode is beautifully designed and very comfortable to use at night.",
+    "createdAt": "2024-06-05T21:30:00.000Z",
+    "updatedAt": "2024-06-05T21:30:00.000Z",
+    "edited": false
+  },
+  {
+    "feedbackRating": "Good",
+    "feedbackText": "The search functionality is fast and returns accurate results every time.",
+    "createdAt": "2024-06-08T13:20:00.000Z",
+    "updatedAt": "2024-06-08T13:20:00.000Z",
+    "edited": false
+  },
+  {
+    "feedbackRating": "Okay",
+    "feedbackText": "Notifications arrive late sometimes, but the overall experience is acceptable.",
+    "createdAt": "2024-06-12T18:00:00.000Z",
+    "updatedAt": "2024-06-14T09:10:00.000Z",
+    "edited": true
+  },
+  {
+    "feedbackRating": "Bad",
+    "feedbackText": "Uploading profile pictures fails occasionally without showing an error message.",
+    "createdAt": "2024-06-18T11:45:00.000Z",
+    "updatedAt": "2024-06-18T11:45:00.000Z",
+    "edited": false
+  },
+  {
+    "feedbackRating": "Excellent",
+    "feedbackText": "Setup took less than five minutes and everything was ready immediately.",
+    "createdAt": "2024-06-24T07:25:00.000Z",
+    "updatedAt": "2024-06-24T07:25:00.000Z",
+    "edited": false
+  },
+  {
+    "feedbackRating": "Good",
+    "feedbackText": "The application feels polished and professional. Minor improvements would make it even better.",
+    "createdAt": "2024-07-01T15:35:00.000Z",
+    "updatedAt": "2024-07-03T17:00:00.000Z",
+    "edited": true
+  },
+  {
+    "feedbackRating": "Very Bad",
+    "feedbackText": "I keep getting logged out unexpectedly after a few minutes of inactivity.",
+    "createdAt": "2024-07-07T20:40:00.000Z",
+    "updatedAt": "2024-07-07T20:40:00.000Z",
+    "edited": false
+  },
+  {
+    "feedbackRating": "Excellent",
+    "feedbackText": "I appreciate the clean layout and thoughtful spacing between elements.",
+    "createdAt": "2024-07-15T09:15:00.000Z",
+    "updatedAt": "2024-07-15T09:15:00.000Z",
+    "edited": false
+  },
+  {
+    "feedbackRating": "Good",
+    "feedbackText": "Performance is smooth on both desktop and mobile devices.",
+    "createdAt": "2024-07-20T12:50:00.000Z",
+    "updatedAt": "2024-07-22T10:30:00.000Z",
+    "edited": true
+  },
+  {
+    "feedbackRating": "Okay",
+    "feedbackText": "The sidebar takes up too much space on smaller screens.",
+    "createdAt": "2024-07-26T17:10:00.000Z",
+    "updatedAt": "2024-07-26T17:10:00.000Z",
+    "edited": false
+  },
+  {
+    "feedbackRating": "Bad",
+    "feedbackText": "The loading spinner keeps spinning even after the content has loaded.",
+    "createdAt": "2024-08-02T14:00:00.000Z",
+    "updatedAt": "2024-08-04T09:20:00.000Z",
+    "edited": true
+  },
+  {
+    "feedbackRating": "Excellent",
+    "feedbackText": "Exporting reports is incredibly fast and the generated files look great.",
+    "createdAt": "2024-08-08T08:40:00.000Z",
+    "updatedAt": "2024-08-08T08:40:00.000Z",
+    "edited": false
+  },
+  {
+    "feedbackRating": "Good",
+    "feedbackText": "Customer support responded quickly and resolved my issue efficiently.",
+    "createdAt": "2024-08-15T19:25:00.000Z",
+    "updatedAt": "2024-08-15T19:25:00.000Z",
+    "edited": false
+  },
+  {
+    "feedbackRating": "Very Bad",
+    "feedbackText": "Several pages return a blank screen when accessed from an older browser.",
+    "createdAt": "2024-08-20T11:30:00.000Z",
+    "updatedAt": "2024-08-23T13:45:00.000Z",
+    "edited": true
+  },
+  {
+    "feedbackRating": "Excellent",
+    "feedbackText": "The latest update fixed many issues and significantly improved usability.",
+    "createdAt": "2024-08-28T16:55:00.000Z",
+    "updatedAt": "2024-08-28T16:55:00.000Z",
+    "edited": false
+  }
+]

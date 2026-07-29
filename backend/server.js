@@ -23,6 +23,7 @@ app.use(express.urlencoded({extended: false})) // For form-urlencoded format
 // API endpoints
 app.use('/api/users', require('./routes/userRoutes'))
 app.use('/api/tickets', require('./routes/ticketRoutes'))
+app.use('/api/feedbacks', require('./routes/feedbackRoutes'))
 
 app.get("/", (req, res) => {
   res.status(200).json({message: 'Welcome to Support Desk API'});
