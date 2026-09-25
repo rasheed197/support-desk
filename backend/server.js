@@ -14,12 +14,13 @@ const PORT = process.env.PORT || 8000
 
 const app = express()
 
+const allowedOrigins = ['https://support-desk-green-eight.vercel.app', "https://feedback-app-frontend-lac.vercel.app"]
 
 // Middlewares
 app.use(express.json()); // Whatever request we get will be passed using the json
 app.use(express.urlencoded({extended: false})) // For form-urlencoded format
 app.use(cors({
-  origin: 'https://support-desk-green-eight.vercel.app', // Your Vercel frontend URL
+  origin: allowedOrigins, // Your Vercel frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   credentials: true
 }));
