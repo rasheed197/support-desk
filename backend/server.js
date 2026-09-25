@@ -11,6 +11,13 @@ connectDB()
 const {errorHandler} = require('./middleware/errorMiddleware')
 const PORT = process.env.PORT || 8000
 
+const cors = require('cors');
+app.use(cors({
+  origin: 'https://support-desk-green-eight.vercel.app', // Your Vercel frontend URL
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  credentials: true
+}));
+
 const app = express()
 
 

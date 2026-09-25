@@ -7,16 +7,16 @@ export default defineConfig({
   server: {
     proxy: {
       // This intercepts any request starting with '/api'
-      // "/api": {
-      //   target: "http://localhost:4000",
-      //   changeOrigin: true,
-      //   secure: false,
-      // },
       "/api": {
-        target: "https://support-desk-7jpg.onrender.com",
+        target: "http://localhost:4000",
         changeOrigin: true,
         secure: false,
       },
+      // "/api": {
+      //   target: "https://support-desk-7jpg.onrender.com",
+      //   changeOrigin: true,
+      //   secure: false,
+      // },
     },
   },
 });
