@@ -1,4 +1,5 @@
 const express = require('express') // To create routes
+const cors = require('cors');
 const dotenv = require('dotenv').config() // For support of .env file
 const colors = require('colors')
 
@@ -11,21 +12,17 @@ connectDB()
 const {errorHandler} = require('./middleware/errorMiddleware')
 const PORT = process.env.PORT || 8000
 
-const cors = require('cors');
-app.use(cors({
-  origin: 'https://support-desk-green-eight.vercel.app', // Your Vercel frontend URL
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  credentials: true
-}));
-
 const app = express()
 
 
 // Middlewares
 app.use(express.json()); // Whatever request we get will be passed using the json
 app.use(express.urlencoded({extended: false})) // For form-urlencoded format
-
-
+app.use(cors({
+  origin: 'https://support-desk-green-eight.vercel.app', // Your Vercel frontend URL
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  credentials: true
+}));
 
 // API endpoints
 app.use('/api/users', require('./routes/userRoutes'))
